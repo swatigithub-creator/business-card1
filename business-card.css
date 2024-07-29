@@ -1,0 +1,34 @@
+body{
+	margin:250px ;
+	font-family:Verdana,Geneva,sans-serif;				
+						/*  text-align:center;.........ok here as well but it will center all text required or not   */
+}
+
+.card{
+	width:500px;
+	padding:30px;
+	margin:0 auto;
+	display:flex;
+	background:lightblue;
+	justify-content:space-around;		/* to provide space between two elements*/
+	text-align:center;
+	border-bottom:5px solid purple;
+	
+}
+.my-img{
+	width:200px;
+		
+}
+.dot-border{					/* Utility class to apply single CSS property to mutiple */
+	border:1px dotted blue;
+	padding:20px;
+}
+
+/*FYI
+margin-top:10;	
+margin-right:20;
+margin-bottom:30;
+margin-left:50;
+can be written as...
+margin:10 20 30 50;
+*/
